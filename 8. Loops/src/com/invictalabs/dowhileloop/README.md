@@ -18,7 +18,7 @@ Press 1 to add more numbers, 0 to exit:
 
 ```java
 do{
-	statements;
+statements;
 } while(condition);
 ```
 
