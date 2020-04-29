@@ -18,4 +18,4 @@ We can use the ArrayList class provided by Java to create mutable lists. This cl
 [Rahul, Sourav, Rohit]
 ```
 
-The ArrayList and Iterator Class use **Generics** to make it possible to create a list and iterator of any desired data type. We specify the data type here in <> as ArrayList<String> to create a list of strings. We can also create a list of our own custom classes. We would learn more about Generics in later topics.
+The ArrayList and Iterator Class use **Generics** to make it possible to create a list and iterator of any desired data type. We specify the data type here in <> as ArrayList< String > to create a list of strings. We can also create a list of our own custom classes. We would learn more about Generics in later topics.
