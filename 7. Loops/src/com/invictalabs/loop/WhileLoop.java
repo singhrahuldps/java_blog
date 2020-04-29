@@ -1,4 +1,4 @@
-package com.invictalabs.whileloop;
+package com.invictalabs.loop;
 
 public class WhileLoop {
 

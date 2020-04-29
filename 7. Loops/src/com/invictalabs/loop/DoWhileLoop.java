@@ -1,4 +1,4 @@
-package com.invictalabs.dowhileloop;
+package com.invictalabs.loop;
 
 import java.util.Scanner;
 

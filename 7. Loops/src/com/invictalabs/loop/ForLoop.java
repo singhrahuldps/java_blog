@@ -1,4 +1,4 @@
-package com.invictalabs.forloop;
+package com.invictalabs.loop;
 
 public class ForLoop {
 

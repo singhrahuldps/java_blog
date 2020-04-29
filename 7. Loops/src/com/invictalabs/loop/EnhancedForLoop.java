@@ -1,4 +1,4 @@
-package com.invictalabs.enhancedforloop;
+package com.invictalabs.loop;
 
 import java.util.List;
 
