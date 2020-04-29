@@ -19,6 +19,8 @@ Java supports 8 predefined data types called primitive data types:
 
 All these values default to a 0 value or a false value. However the Java compiler doesn't initialize the local variables.
 
+In PrintData, we've used the System.out.printf() function to output the variables. This function is called the print formatter and allows us to print a string with references to the variable arguments following it. We can note that the code for character is "%c", boolean is "%b" and integer is "%d".
+
 ### TypeCasting Output
 ```bash
 Original integer      : 1000
