@@ -1,23 +1,23 @@
 # Introduction to Java for Coders
 
-This is a java blog to acquaint coders to get started with Java Programming. I introduce basic syntax and best practices to follow while programming in Java. It is recommended to install Java 1.8+ to run the code files provided.
+This is a java blog to acquaint coders to get started with Java Programming. We introduce basic syntax and best practices to follow while programming in Java. It is recommended to install Java 1.8+ to run the code files provided.
 
 ## Index
 
-1. Why Java?
-2. Java Tools
-3. Hello World
-4. Primitive Data Type
-5. Non-Primitve Data Type
-6. Lists
-7. Conditionals
+1. [Why Java?](https://github.com/singhrahuldps/java_blog/tree/master/1.%20Why%20Java?)
+2. [Java Tools](https://github.com/singhrahuldps/java_blog/tree/master/2.%20Java%20Tools)
+3. [Hello World](https://github.com/singhrahuldps/java_blog/tree/master/3.%20Hello%20World)
+4. [Primitive Data Type](https://github.com/singhrahuldps/java_blog/tree/master/4.%20Primitive%20Data%20Type)
+5. [Non-Primitve Data Type](https://github.com/singhrahuldps/java_blog/tree/master/5.%20Non-Primitve%20Data%20Type)
+6. [Lists](https://github.com/singhrahuldps/java_blog/tree/master/6.%20Lists)
+7. [Conditionals](https://github.com/singhrahuldps/java_blog/tree/master/7.%20Conditionals)
 8. [Loops](https://github.com/singhrahuldps/java_blog/tree/master/8.%20Loops)
-9. Methods
-10. Object Oriented Programming
-11. How are objects created?
-12. Collections
-13. Generics
-14. Exception Handling
-15. Multithreading and Concurrency
-16. Functional Programming
-17. File Handling
+9. [Methods](https://github.com/singhrahuldps/java_blog/tree/master/9.%20Methods)
+10. [Object Oriented Programming](https://github.com/singhrahuldps/java_blog/tree/master/10.%20Object%20Oriented%20Programming)
+11. [How are objects created?](https://github.com/singhrahuldps/java_blog/tree/master/11.%20How%20are%20objects%20created?)
+12. [Collections](https://github.com/singhrahuldps/java_blog/tree/master/12.%20Collections)
+13. [Generics](https://github.com/singhrahuldps/java_blog/tree/master/13.%20Generics)
+14. [Exception Handling](https://github.com/singhrahuldps/java_blog/tree/master/14.%20Exception%20Handling)
+15. [Multithreading and Concurrency](https://github.com/singhrahuldps/java_blog/tree/master/15.%20Multithreading%20and%20Concurrency)
+16. [Functional Programming](https://github.com/singhrahuldps/java_blog/tree/master/16.%20Functional%20Programming)
+17. [File Handling](https://github.com/singhrahuldps/java_blog/tree/master/17.%20File%20Handling)
