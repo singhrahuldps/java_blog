@@ -8,14 +8,14 @@ public class TypeCasting {
 		int num = 1000;
 		
 		// Leads to loss of information
-		byte narrowcasting = (byte) num;
+		byte narrowCasting = (byte) num;
 		
 		// No loss of information
-		double widecasting = (double) num;
+		double wideCasting = (double) num;
 		
 		System.out.println("Original integer      : " + num); // Prints 1000
-		System.out.println("Narrow casted to byte : " + narrowcasting); // Prints -24 
-		System.out.println("Wide casted to double : " + widecasting); // Prints 1000.0
+		System.out.println("Narrow casted to byte : " + narrowCasting); // Prints -24 
+		System.out.println("Wide casted to double : " + wideCasting); // Prints 1000.0
 		
 		
 	}
