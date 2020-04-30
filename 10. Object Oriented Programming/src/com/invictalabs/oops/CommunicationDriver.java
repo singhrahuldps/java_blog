@@ -3,7 +3,9 @@ package com.invictalabs.oops;
 public interface CommunicationDriver {
 	void connectDevice(String deviceName);
 	
-	void disconnectDevice();
+	default void disconnectDevice() {
+		System.out.println("Device disconnected");
+	}
 	
 	void sendFile(String filePath);
 	

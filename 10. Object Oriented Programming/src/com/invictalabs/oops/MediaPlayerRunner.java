@@ -6,7 +6,7 @@ public class MediaPlayerRunner {
 		
 		// We can't create an object of Device class
 		// Device device = new Device(); is not allowed
-		MediaPlayer mp = new MediaPlayer();
+		Device mp = new MediaPlayer();
 		
 		mp.switchOn();
 		

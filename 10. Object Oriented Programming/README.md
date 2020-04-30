@@ -20,7 +20,43 @@ ROARRRR!!!!
 
 A class is created in Java using the class keyword. All classes which don't inherit any class, inherit the predefined Object Class by default. It is best practice to keep all state variables with private access and implement public getter and setter functions to access them as it allows us to define certain checks on data manipulation and avoid unwanted changes. In the Animal Class, we checked if age was valid or not, and only then allow any changes.
 
-The Tiger Class inherits from the Animal class and adds extra states and actions such as roar. This action is unique to the Tiger and hence a subclass was made. This helps reduce code redundancy in the Tiger Class. The eatFood() method performs different actions depending upon whether a string argument is entered or not. In such way we can implement polymorphism in Classes. 
+The Tiger Class inherits from the Animal class and adds extra states and actions such as roar. This action is unique to the Tiger and hence a subclass was made. This helps reduce code redundancy in the Tiger Class. The eatFood() method performs different actions depending upon whether a string argument is entered or not. In this way we can implement polymorphism in Classes. 
 
-Each class has a Constructor which is defined as a function with its name equal to the class name and no return type. It gets executed whenever a new class object is created. We can also have various implementations of the Constructor, similar to the eatFood() method depending upon the type of argument. Also, we note that we have to call the constructor of the parent class before the constructor of the child class is executed. Java provides a default constructor which excepts no argument and initialises all states with a 0 or a null value. If we create a custom constructor for a class, then Java doesn't create any default constructor.
+Each class has a Constructor which is defined as a function with its name equal to the class name and no return type. It gets executed whenever a new class object is created. We can also have various implementations of the Constructor, similar to the eatFood() method depending upon the type of argument. Also, note that we have to call the constructor of the parent class before the constructor of the child class is executed. Java provides a default constructor which excepts no argument and initialises all states with a 0 or a null value. If we create a custom constructor for a class, then Java doesn't create any default constructor.
 
+## Abstract Class
+
+An abstract class is declared with the abstract keyword in Java. We usually specify abstract member functions inside an abstract class which are not implemented. An abstract class cannot be instantiated and it must be inherited in another subclass where all its abstract methods are implemented. It is possible to have abstract or non-abstract methods in an abstract class along with data members. These classes help deploy a common functionality across all the inheriting classes. 
+
+Abstract class denotes an **IS-A relationship** between itself and the inheriting classes.
+
+Device class acts like a template for all devices to be made and ensures that all devices implement a switchOn() and a switchOff() method.
+
+MediaPlayer inherits Device class and provides its own implementation of all its abstract methods. 
+
+### MediaPlayerRunner Output
+```bash
+Player turned On!
+Player turned Off!
+```
+
+An instance of the MediaPlayer class can also be access by a variable of its Parent Class type. This is useful when we want to access objects of all classes inheriting the abstract class using a single variable. When we call the abstract methods from this variable, they would behave differently for different classes. This is called as **runtime polymorphism**.
+
+## Interface
+
+An interface represents what actions must be done by an object. It represents a blueprint for a class. It is used as a contract between developers while using different Classes on how certain objects must behave. It is practically helpful in establishing common method names across similar classes and establishing a common usage protocol. Interfaces help achieve abstraction in Java.
+
+An interface can contain any number of methods. We cannot create its instances. All the methods inside an interface are abstract and must be implemented. It is only possible to have static final variables in an interface. We can provide a default implementation for a method in interface by using the default keyword. If we don't override this method in the implementing class, then the default method is run.
+
+Interfaces help us in tackling the lack of multiple inheritance in Java. A class can implement more than one interfaces. However, interface musn't be confused with a class. It doesn't reflect an **IS-A relationship** between the implementing class and the interface, rather it reflects a feature of the class/how a class works.
+
+
+### BluetoothRunner Output
+```bash
+Connected to OnePlus
+File sent successfully!
+File received successfully!
+Disconnected OnePlus
+```
+
+Just like with abstract classes, we can use a variable of the interface type to access different implementing classes thus allowing runtime polymorphism.

@@ -9,7 +9,7 @@ public class Bluetooth implements CommunicationDriver{
 		this.connectedDevice = deviceName;
 		System.out.println("Connected to " + this.connectedDevice);
 	}
-
+	
 	@Override
 	public void disconnectDevice() {
 		System.out.println("Disconnected " + this.connectedDevice);
@@ -18,12 +18,12 @@ public class Bluetooth implements CommunicationDriver{
 
 	@Override
 	public void sendFile(String filePath) {
-		System.out.println("File sent succesfully!");
+		System.out.println("File sent successfully!");
 	}
 
 	@Override
 	public void receiveFile() {
-		System.out.println("File received succesfully!");
+		System.out.println("File received successfully!");
 	}
 
 }
