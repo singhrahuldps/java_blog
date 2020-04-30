@@ -4,7 +4,7 @@ This Java blog acquaints coders with Java Programming. We introduce basic syntax
 
 ## Index
 
-1. [Why Java?](https://github.com/singhrahuldps/java_blog/tree/master/1.%20Why%20Java?)
+1. [About Java](https://github.com/singhrahuldps/java_blog/tree/master/1.%20About%20Java)
 2. [Java Tools](https://github.com/singhrahuldps/java_blog/tree/master/2.%20Java%20Tools)
 3. [Hello World](https://github.com/singhrahuldps/java_blog/tree/master/3.%20Hello%20World)
 4. [Primitive Data Type](https://github.com/singhrahuldps/java_blog/tree/master/4.%20Primitive%20Data%20Type)
