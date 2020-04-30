@@ -20,7 +20,7 @@ ROARRRR!!!!
 
 A class is created in Java using the class keyword. All classes which don't inherit any class, inherit the predefined Object Class by default. It is best practice to keep all state variables with private access and implement public getter and setter functions to access them as it allows us to define certain checks on data manipulation and avoid unwanted changes. In the Animal Class, we checked if age was valid or not, and only then allow any changes.
 
-Enumeration is a data type used for denoting fixed constants. We generally use enumerations when we don't expect the value to change and are fixed. They are created similar to a class, using the keyword **enum**. Here we use enums to specify the diiferent eating habits of animals which are known to be fixed. Some other uses of enums could be to store the months of the year, days of the week and sex of a person. 
+Enumeration is a data type used for denoting fixed constants. We generally use enumerations when we don't expect the value to change and are fixed. They are created similar to a class, using the keyword **enum**. Here we use enums to specify the different eating habits of animals which are known to be fixed. Some other uses of enums could be to store the months of the year, days of the week and sex of a person. 
 
 The Tiger Class inherits from the Animal class and adds extra states and actions such as roar. This action is unique to the Tiger and hence a subclass was made. This helps reduce code redundancy in the Tiger Class. The eatFood() method performs different actions depending upon whether a string argument is entered or not. In this way we can implement polymorphism in Classes. 
 
